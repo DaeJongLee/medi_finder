@@ -11,15 +11,14 @@ function SearchBar({ onSearch }) {
   return (
     <form onSubmit={handleSearch}>
       <input
-        type=text
+        type="text"
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
-        placeholder=상품명 검색...
+        placeholder="상품명 검색..."
       />
-      <button type=submit>검색</button>
+      <button type="submit">검색</button>
     </form>
   );
 }
 
 export default SearchBar;
-

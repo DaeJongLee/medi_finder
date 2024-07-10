@@ -2,7 +2,7 @@ import React from 'react';
 
 function Pagination({ currentPage, totalPages, onPageChange }) {
   return (
-    <div className=pagination>
+    <div className="pagination">
       {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
         <button
           key={page}
@@ -17,4 +17,3 @@ function Pagination({ currentPage, totalPages, onPageChange }) {
 }
 
 export default Pagination;
-
