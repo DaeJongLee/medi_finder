@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/medi_finder/static/css/main.af64c0ef.css",
+    "main.js": "/medi_finder/static/js/main.5543e59e.js",
+    "index.html": "/medi_finder/index.html",
+    "main.af64c0ef.css.map": "/medi_finder/static/css/main.af64c0ef.css.map",
+    "main.5543e59e.js.map": "/medi_finder/static/js/main.5543e59e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af64c0ef.css",
+    "static/js/main.5543e59e.js"
+  ]
+}
