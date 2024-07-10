@@ -40,8 +40,10 @@ function App() {
   return (
     <div className=App>
       <h1>Pharmacy Product Finder</h1>
-      <SearchBar onSearch={handleSearch} />
-      <LocationSelector onSelect={handleLocationSelect} />
+      <div className=search-container>
+        <SearchBar onSearch={handleSearch} />
+        <LocationSelector onSelect={handleLocationSelect} />
+      </div>
       <ul>
         {filteredProducts.map((product, index) => (
           <li key={index}>{product.상품명} - {product.위치명}</li>
